@@ -1,0 +1,110 @@
+.marca{
+    background-color: #1c0e28;
+    background-image: linear-gradient(43deg, #1c0e28 0%, #771035 46%, #245685 100%);
+    color: white;
+    font-size: 65px;
+    height: 150px;
+    width: 100%;
+    box-shadow: -30px 30px 51px 8px black;
+
+}
+#footer{
+    background-color: black;
+    color:aquamarine;
+    font-size: 30px;
+}
+
+#footer .marca1{
+    background-color: #1c0e28;
+    background-image: linear-gradient(43deg, #1c0e28 0%, #771035 46%, #245685 100%);
+    color: white;
+    font-size: 65px;
+    height: 100px;;
+    padding: 0;
+    margin: 0;
+}
+
+
+#main_section{
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+#main_section .container{
+    max-width: 100%;
+    height: auto;
+    background-color: #bab1a9;
+}
+
+#main_section .container .fondo{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+
+#main_section .container .hovereffect:active{
+    transform: translateX(350px) scale(1.2);
+    position: relative;
+    z-index: 1;
+}
+#main_section .container .hovereffectright:active{
+    transform: translateX(-350px);
+    position: relative;
+    z-index: 1;
+}
+
+
+#main_section .container .foto:hover{
+    box-shadow: -25px 25px 51px 8px #1f0003;
+}
+
+.foto{
+    max-width: 100%;
+    height: auto;
+    border-radius: 2%;
+    box-shadow: -25px 25px 51px 8px black;
+}
+.overlay{
+    height: 50%;
+    width: 100%;
+    position: relative ;
+    background-color: rgba(201, 33, 30, 0.5);
+    border-left: solid 4px rgb(199, 34, 34);
+    border-top: solid 4px rgb(199, 34, 34);
+}
+
+.overlay1{
+    height: 50%;
+    width: 100%;
+    position: relative ;
+    background-color: rgba(213, 147, 39, 0.5);
+    border-right: solid 4px rgb(230, 178, 21);
+    border-top: solid 4px rgb(230, 178, 21);
+}
+
+.overlay2{
+    height: 50%;
+    width: 100%;
+    position: relative ;
+    background-color: rgb(171, 3, 85, 0.5);
+    border-left: solid 4px rebeccapurple;
+    border-top: solid 4px rebeccapurple;
+}
+
+.overlay3{
+    height: 50%;
+    width: 100%;
+    position: relative ;
+    background-color: rgba(83, 165, 117, 0.4);
+    border-bottom: solid 4px rgb(36, 187, 94);
+    border-top: solid 4px rgb(36, 187, 94);
+}
+
+.carousel-inner{
+    max-height: 70vh; /*Para que ocupe el 70% de la pantalla*/
+    object-fit: cover; /*Para que la imagen sea proporcional*/
+}
