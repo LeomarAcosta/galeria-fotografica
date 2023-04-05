@@ -2,11 +2,9 @@
     background-color: #1c0e28;
     background-image: linear-gradient(43deg, #1c0e28 0%, #771035 46%, #245685 100%);
     color: white;
-    font-size: 65px;
-    height: 150px;
+    height: 5%;
     width: 100%;
     box-shadow: -30px 30px 51px 8px black;
-
 }
 #footer{
     background-color: black;
